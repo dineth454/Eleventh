@@ -1,0 +1,24 @@
+<resources>
+
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+
+    </style>
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">#6c0070</item>
+        <item name="colorPrimaryDark">#6c0070</item>
+        <item name="colorAccent">#bb03c2</item>
+    </style>
+
+    <style name="MyMaterialTheme.toolbar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">#6c0070</item>
+        <item name="colorPrimaryDark">#6c0070</item>
+        <item name="colorAccent">#bb03c2</item>
+        <item name="android:textColorSecondary">#ffffff</item>
+    </style>
+
+</resources>

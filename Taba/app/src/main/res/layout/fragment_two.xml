@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentTwo">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameEditText"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/cardEditText"
+        android:layout_alignStart="@+id/cardEditText"
+        android:layout_alignRight="@+id/tpEditText"
+        android:layout_alignEnd="@+id/tpEditText"
+        android:hint="Name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardEditText"
+        android:hint="Card"
+        android:layout_below="@+id/nameEditText"
+        android:layout_alignLeft="@+id/tpEditText"
+        android:layout_alignStart="@+id/tpEditText"
+        android:layout_alignRight="@+id/tpEditText"
+        android:layout_alignEnd="@+id/tpEditText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/tpEditText"
+        android:hint="Mobile No"
+        android:layout_below="@+id/cardEditText"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/emailEditText"
+        android:layout_below="@+id/tpEditText"
+        android:layout_alignLeft="@+id/tpEditText"
+        android:layout_alignStart="@+id/tpEditText"
+        android:hint="Email" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/bdayEditText"
+        android:layout_below="@+id/emailEditText"
+        android:layout_alignLeft="@+id/emailEditText"
+        android:layout_alignStart="@+id/emailEditText"
+        android:hint="Birthday" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/descEditText"
+        android:layout_below="@+id/bdayEditText"
+        android:layout_alignLeft="@+id/bdayEditText"
+        android:layout_alignStart="@+id/bdayEditText"
+        android:layout_alignRight="@+id/bdayEditText"
+        android:layout_alignEnd="@+id/bdayEditText"
+        android:hint="somethin about.." />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/photoImageView"
+        android:src="@drawable/abc"
+        android:layout_below="@+id/descEditText"
+        android:layout_alignLeft="@+id/descEditText"
+        android:layout_alignStart="@+id/descEditText" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="Capture"
+        android:id="@+id/captureButton"
+        android:layout_below="@+id/descEditText"
+        android:layout_toLeftOf="@+id/doneButton"
+        android:layout_toStartOf="@+id/doneButton" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="done"
+        android:id="@+id/doneButton"
+        android:layout_below="@+id/descEditText"
+        android:layout_alignRight="@+id/descEditText"
+        android:layout_alignEnd="@+id/descEditText" />
+
+</RelativeLayout>

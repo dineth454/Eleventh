@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Results">
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/editContact"
+        android:title="Edit Profile"
+        android:icon="@drawable/editprof"
+        android:orderInCategory="200"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/email"
+        android:title="Email Contact"
+        android:orderInCategory="200"
+        app:showAsAction="never" />
+
+</menu>
