@@ -1,8 +1,6 @@
 Hi there i'm Piyumika no dineth!!
 ok
-<<<<<<< HEAD
 right
-=======
 
 This is also testing... DAFAK!!
->>>>>>> 5548a958c221eee453ae39d9cadd66aeed7e9a28
+
